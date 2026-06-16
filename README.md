@@ -26,4 +26,10 @@ Eclipseで作成した成果を保存していく。
 ・合計値の求め方sum
 次回：平均値、最大値、最小値
 
+2026/06/16
+・平均値average⇒double average = (double) sum / numbers.length;
+・最大値max⇒if (numbers[i] > max)
+・最小値min⇒if (numbers[i] < min)
+次回：メソッド
+
 
