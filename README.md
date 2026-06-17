@@ -32,4 +32,12 @@ Eclipseで作成した成果を保存していく。
 ・最小値min⇒if (numbers[i] < min)
 次回：メソッド
 
+2026/06/17
+・引数と戻り値のあるメゾット⇒public static int subtract(int a, int b) { return a - b；}
+・掛け算メゾット⇒public static int multiply(int a, int b) { return a * b;}
+・booleanを返すメゾット⇒public static boolean isAdult(int age) { return(int age >= 18); }
+・配列＋for文＋return⇒public static int sumArray(int[] numbers) {～～
+次回：配列の平均値を返すメゾットaverageArray
+
+
 
