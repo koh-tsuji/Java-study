@@ -39,5 +39,12 @@ Eclipseで作成した成果を保存していく。
 ・配列＋for文＋return⇒public static int sumArray(int[] numbers) {～～
 次回：配列の平均値を返すメゾットaverageArray
 
+2026/06/19
+・averageArray⇒public static double averageArray(int [] numbers){
+・maxArray⇒public static int maxArray(int [] numbers) {
+・minArray⇒public static int minArray(int [] numbers) {
+・人数カウントの数え方⇒public static int countAdults(int [] ages) {
+次回：クラス、オブジェクト
+
 
 
