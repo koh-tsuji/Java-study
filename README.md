@@ -46,5 +46,17 @@ Eclipseで作成した成果を保存していく。
 ・人数カウントの数え方⇒public static int countAdults(int [] ages) {
 次回：クラス、オブジェクト
 
+2026/6/21
+・クラス⇒class Person：Personという新しい型を作る
+・オブジェクト⇒Person person ＝ new Person();　：Person型のオブジェクトを作る
+・フィールド⇒Person.name ="田中 "; ：オブジェクトの場所を保存する場所
+・インスタンスメゾット⇒public void ～　System.out.println(＊＊)　：オブジェクトがもつ処理
+・コンストラクタ⇒Person(int ○○,String ×× )｛
+　　　　　　　　　　　this.○○ = ○○;
+                    this.×× = ××;
+                ：オブジェクト作成時に初期値を設定する仕組み
+・this⇒this.○○ = ○○;　：左はフィールド、右は引数
+          
+
 
 
