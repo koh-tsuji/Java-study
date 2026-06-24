@@ -57,6 +57,33 @@ Eclipseで作成した成果を保存していく。
                 ：オブジェクト作成時に初期値を設定する仕組み
 ・this⇒this.○○ = ○○;　：左はフィールド、右は引数
           
-
+2026/06/24
+・タスクアプリ制作に挑戦
+⇒
+★while文を学習
+　・追加したコード
+　　while (choice != 3) {
+　　...}
+・学んだこと
+・!=⇒等しくない
+つまり、while (choice != 3)は
+choice が 3 と等しくない間は繰り返すという意味。
+・変数の更新を理解
+　choice = scanner.nextInt();を毎回実行することで、
+　入力⇒choiceに保存⇒while条件を再判定していることを学んだ。
+・Scannerの位置を修正
+　最初はscanner.close();が while の中にあった。
+　その結果
+　1回入力⇒Scanner終了⇒次の入力ができない。
+　修正後：while (...) {...}
+　scanner.close();　に変更。
+・入力チェック機能を追加
+　追加したコード
+if (choice < 1 || choice > 3) {
+    System.out.println("1から3を入力して下さい");
+}
+・学んだこと
+　「||」は、またはという意味
+ 次回：ArrayListでタスク追加
 
 
