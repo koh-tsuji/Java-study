@@ -86,4 +86,15 @@ if (choice < 1 || choice > 3) {
 　「||」は、またはという意味
  次回：ArrayListでタスク追加
 
+ 2026/06/25
+・String学習
+・nextLine()で文字入力
+・tasks.add()でタスク保存
+
+★現在できること
+・メニュー表示
+・タスク入力
+・ArrayListへ保存
+
+次回：タスク一覧表示
 
